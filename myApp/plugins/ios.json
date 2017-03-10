@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-moengage": {
+            "APP_ID": "B4SBKX2XYM4C5YOMUMYB5YV3",
+            "SENDER_ID": "11770871423",
+            "NOTIFICATION_ICON": "systemicon",
+            "NOTIFICATION_TYPE": "single",
+            "NOTIFICATION_LARGE_ICON": "systemicon",
+            "SKIP_GCM_REGISTRATION": "true",
+            "PACKAGE_NAME": "com.ionicframework.myapp407278"
+        }
+    },
+    "dependent_plugins": {}
+}

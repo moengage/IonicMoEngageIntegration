@@ -1,0 +1,28 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.moengage:moe-android-sdk:7.6.02'
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'com.android.support:support-v4:23.4.0'
+    }
+}
+
+ext.postBuildExtras = {
+    android {
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+        allprojects {
+            compileOptions {
+                sourceCompatibility = JavaVersion.VERSION_1_7
+                targetCompatibility = JavaVersion.VERSION_1_7
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "moengagesdk",
+  "version": "2.4.0",
+  "description": "MoEngage Cordova SDK",
+  "main": "MoECordova.js",
+  "author": "moengage",
+  "license": "ISC"
+}

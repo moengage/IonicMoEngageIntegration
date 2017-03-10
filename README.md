@@ -5,11 +5,17 @@ This is a sample app showing how to use cordova-plugin-moengage in Ionic project
 ## Using the example project in iOS
 1. After downloading/ cloning the project, Go to myApp folder in terminal.
 2. Run : 
+
         $ sudo npm install
+        
 3. After this Add ios platform : 
+
         $ ionic platform add ios
+        
 4. Then Build and Run the project :
+
         $ ionic build ios
+        
         $ ionic run ios
     
 
